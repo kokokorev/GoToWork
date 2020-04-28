@@ -1,0 +1,5 @@
+C:\Users\nnwrn\Desktop\GoToWork\GoToWorkDatabaseImplement\bin\Debug\netstandard2.0\GoToWorkDatabaseImplement.deps.json
+C:\Users\nnwrn\Desktop\GoToWork\GoToWorkDatabaseImplement\bin\Debug\netstandard2.0\GoToWorkDatabaseImplement.dll
+C:\Users\nnwrn\Desktop\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.csprojAssemblyReference.cache
+C:\Users\nnwrn\Desktop\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.AssemblyInfoInputs.cache
+C:\Users\nnwrn\Desktop\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.AssemblyInfo.cs

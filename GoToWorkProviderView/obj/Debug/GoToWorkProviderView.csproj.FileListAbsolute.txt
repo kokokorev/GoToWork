@@ -1,0 +1,8 @@
+C:\Users\nnwrn\Desktop\GoToWork\GoToWorkProviderView\bin\Debug\GoToWorkProviderView.exe.config
+C:\Users\nnwrn\Desktop\GoToWork\GoToWorkProviderView\bin\Debug\GoToWorkProviderView.exe
+C:\Users\nnwrn\Desktop\GoToWork\GoToWorkProviderView\bin\Debug\GoToWorkProviderView.pdb
+C:\Users\nnwrn\Desktop\GoToWork\GoToWorkProviderView\obj\Debug\GoToWorkProviderView.csprojAssemblyReference.cache
+C:\Users\nnwrn\Desktop\GoToWork\GoToWorkProviderView\obj\Debug\GoToWorkProviderView.Properties.Resources.resources
+C:\Users\nnwrn\Desktop\GoToWork\GoToWorkProviderView\obj\Debug\GoToWorkProviderView.csproj.GenerateResource.cache
+C:\Users\nnwrn\Desktop\GoToWork\GoToWorkProviderView\obj\Debug\GoToWorkProviderView.exe
+C:\Users\nnwrn\Desktop\GoToWork\GoToWorkProviderView\obj\Debug\GoToWorkProviderView.pdb
