@@ -1,0 +1,8 @@
+D:\dev\visual studio\GoToWork\GoToWorkAdminView\obj\Debug\GoToWorkAdminView.csprojAssemblyReference.cache
+D:\dev\visual studio\GoToWork\GoToWorkAdminView\obj\Debug\GoToWorkAdminView.Properties.Resources.resources
+D:\dev\visual studio\GoToWork\GoToWorkAdminView\obj\Debug\GoToWorkAdminView.csproj.GenerateResource.cache
+D:\dev\visual studio\GoToWork\GoToWorkAdminView\bin\Debug\GoToWorkAdminView.exe.config
+D:\dev\visual studio\GoToWork\GoToWorkAdminView\bin\Debug\GoToWorkAdminView.exe
+D:\dev\visual studio\GoToWork\GoToWorkAdminView\bin\Debug\GoToWorkAdminView.pdb
+D:\dev\visual studio\GoToWork\GoToWorkAdminView\obj\Debug\GoToWorkAdminView.exe
+D:\dev\visual studio\GoToWork\GoToWorkAdminView\obj\Debug\GoToWorkAdminView.pdb

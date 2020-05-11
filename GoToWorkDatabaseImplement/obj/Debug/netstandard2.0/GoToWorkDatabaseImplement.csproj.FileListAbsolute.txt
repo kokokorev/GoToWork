@@ -3,3 +3,9 @@ D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\bin\Debug\netstandard2.0
 D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.csprojAssemblyReference.cache
 D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.AssemblyInfoInputs.cache
 D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.AssemblyInfo.cs
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\bin\Debug\netstandard2.0\GoToWorkDatabaseImplement.pdb
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\bin\Debug\netstandard2.0\GoToWorkBusinessLogic.dll
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\bin\Debug\netstandard2.0\GoToWorkBusinessLogic.pdb
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.csproj.CopyComplete
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.dll
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.pdb

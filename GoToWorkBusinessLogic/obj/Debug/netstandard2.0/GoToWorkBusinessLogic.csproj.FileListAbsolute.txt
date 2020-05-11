@@ -1,0 +1,8 @@
+D:\dev\visual studio\GoToWork\GoToWorkBusinessLogic\bin\Debug\netstandard2.0\GoToWorkBusinessLogic.deps.json
+D:\dev\visual studio\GoToWork\GoToWorkBusinessLogic\bin\Debug\netstandard2.0\GoToWorkBusinessLogic.dll
+D:\dev\visual studio\GoToWork\GoToWorkBusinessLogic\obj\Debug\netstandard2.0\GoToWorkBusinessLogic.csprojAssemblyReference.cache
+D:\dev\visual studio\GoToWork\GoToWorkBusinessLogic\obj\Debug\netstandard2.0\GoToWorkBusinessLogic.AssemblyInfoInputs.cache
+D:\dev\visual studio\GoToWork\GoToWorkBusinessLogic\obj\Debug\netstandard2.0\GoToWorkBusinessLogic.AssemblyInfo.cs
+D:\dev\visual studio\GoToWork\GoToWorkBusinessLogic\bin\Debug\netstandard2.0\GoToWorkBusinessLogic.pdb
+D:\dev\visual studio\GoToWork\GoToWorkBusinessLogic\obj\Debug\netstandard2.0\GoToWorkBusinessLogic.dll
+D:\dev\visual studio\GoToWork\GoToWorkBusinessLogic\obj\Debug\netstandard2.0\GoToWorkBusinessLogic.pdb
