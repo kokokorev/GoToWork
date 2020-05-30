@@ -1,0 +1,307 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkProviderView\\GoToWorkProviderView.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj",
+        "projectName": "GoToWorkBusinessLogic",
+        "projectPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\nnwrn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nnwrn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.11.3, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "PDFsharp-MigraDoc": {
+              "target": "Package",
+              "version": "[1.50.5147, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj",
+        "projectName": "GoToWorkDatabaseImplement",
+        "projectPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj",
+        "packagesPath": "C:\\Users\\nnwrn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkDatabaseImplement\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nnwrn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkProviderView\\GoToWorkProviderView.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkProviderView\\GoToWorkProviderView.csproj",
+        "projectName": "GoToWorkProviderView",
+        "projectPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkProviderView\\GoToWorkProviderView.csproj",
+        "packagesPath": "C:\\Users\\nnwrn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkProviderView\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nnwrn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj"
+              },
+              "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkRestApi\\GoToWorkRestApi.csproj": {
+                "projectPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkRestApi\\GoToWorkRestApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkRestApi\\GoToWorkRestApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkRestApi\\GoToWorkRestApi.csproj",
+        "projectName": "GoToWorkRestApi",
+        "projectPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkRestApi\\GoToWorkRestApi.csproj",
+        "packagesPath": "C:\\Users\\nnwrn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkRestApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nnwrn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj"
+              },
+              "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj": {
+                "projectPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
