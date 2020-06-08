@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using GoToWorkBusinessLogic.Interfaces;
+using GoToWorkBusinessLogic.BusinessLogics;
 using GoToWorkDatabaseImplement.Implements;
 using Unity;
 
@@ -17,10 +18,12 @@ namespace GoToWorkAdminView
     {
         [Dependency] public new IUnityContainer Container { get; set; }
         private readonly IToyLogic logic;
+        private readonly BackUpAbstractLogic backUpAbstractLogic;
 
-        public FormAdmin(ToyLogic logic)
+        public FormAdmin(ToyLogic logic, BackUpAbstractLogic backUpAbstractLogic)
         {
             this.logic = logic;
+            this.backUpAbstractLogic = backUpAbstractLogic;
             InitializeComponent();
         }
 
@@ -72,10 +75,29 @@ namespace GoToWorkAdminView
 
         private void buttonBackup_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (backUpAbstractLogic != null)
+                {
+                    var fbd = new FolderBrowserDialog();
+                    if (fbd.ShowDialog() == DialogResult.OK)
+                    {
+                        backUpAbstractLogic.CreateAdminArchive(fbd.SelectedPath);
+                        MessageBox.Show("Бекап создан", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void buttonStat_Click(object sender, EventArgs e)
         {
+            var form = Container.Resolve<FormStatistic>();
+            form.ShowDialog();
+            LoadData();
         }
     }
 }
