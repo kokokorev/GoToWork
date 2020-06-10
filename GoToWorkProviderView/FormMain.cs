@@ -71,6 +71,11 @@ namespace GoToWorkProviderView
             var fbd = new FolderBrowserDialog();
             if (fbd.ShowDialog() == DialogResult.OK)
             {
+                APIClient.PostRequest("api/main/createbackup", new BackupBindingModel
+                {
+                    SelectedPath = fbd.SelectedPath
+                });
+                MessageBox.Show("Бекап создан", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

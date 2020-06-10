@@ -31,6 +31,7 @@ namespace GoToWorkRestApi
             services.AddTransient<IPartLogic, PartLogic>();
             services.AddTransient<IRequestLogic, RequestLogic>();
             services.AddTransient<IProviderLogic, ProviderLogic>();
+            services.AddTransient<BackUpAbstractLogic, BackUpLogic>();
             services.AddTransient<ReportLogic>();
             services.AddControllers();
         }
