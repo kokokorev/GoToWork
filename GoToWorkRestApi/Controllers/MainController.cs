@@ -21,12 +21,13 @@ namespace GoToWorkRestApi.Controllers
         private readonly IPartLogic _part;
         private readonly IRequestLogic _request;
         private readonly ReportLogic _report;
-
-        public MainController(IPartLogic part, IRequestLogic request, ReportLogic report)
+        private readonly BackUpAbstractLogic _backUpAbstractLogic;
+        public MainController(IPartLogic part, IRequestLogic request, ReportLogic report, BackUpAbstractLogic backUpAbstractLogic)
         {
             _part = part;
             _request = request;
             _report = report;
+            _backUpAbstractLogic = backUpAbstractLogic;
         }
 
         [HttpGet]
@@ -43,6 +44,8 @@ namespace GoToWorkRestApi.Controllers
         public void CreateExcelReport(ReportBindingModel model) => _report.SaveToExcelFile(model);
         [HttpPost]
         public void CreatePdfReport(ReportBindingModel model) => _report.SaveToPdfFile(model);
+        [HttpPost]
+        public void CreateBackup(BackupBindingModel model) => _backUpAbstractLogic.CreateProviderArchive(model);
         private PartModel PartConvert(PartViewModel model)
         {
             if (model != null)
