@@ -17,7 +17,16 @@ namespace GoToWorkBusinessLogic.BusinessLogics
         {
             this.partLogic = partLogic;
         }
+        public void SaveToWordFile(ReportBindingModel model)
+        {
+            SaveToWord.CreateDoc(model);
 
+            MailLogic.MailSendAsync(new MailSendInfo
+            {
+                MailAddress = model.Email,
+                FileName = model.FileName
+            });
+        }
         public void SaveToExcelFile(ReportBindingModel model)
         {
             SaveToExcel.CreateDoc(model);

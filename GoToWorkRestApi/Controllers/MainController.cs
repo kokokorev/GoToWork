@@ -41,6 +41,8 @@ namespace GoToWorkRestApi.Controllers
         [HttpPost]
         public void ChangeRequestStatus(RequestBindingModel model) => _request.CreateOrUpdate(model);
         [HttpPost]
+        public void CreateWordReport(ReportBindingModel model) => _report.SaveToWordFile(model);
+        [HttpPost]
         public void CreateExcelReport(ReportBindingModel model) => _report.SaveToExcelFile(model);
         [HttpPost]
         public void CreatePdfReport(ReportBindingModel model) => _report.SaveToPdfFile(model);
