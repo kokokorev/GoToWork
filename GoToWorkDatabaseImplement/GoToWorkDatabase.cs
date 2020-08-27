@@ -12,7 +12,11 @@ namespace GoToWorkDatabaseImplement
         {
             if (optionsBuilder.IsConfigured == false)
             {
+<<<<<<< HEAD
                 optionsBuilder.UseSqlServer(@"Data Source=juliazavr\SQLEXPRESS;Initial Catalog=GoToWorkDatabase;Integrated Security=True;MultipleActiveResultSets=True;");
+=======
+                optionsBuilder.UseSqlServer(@"Data Source=NIA\SQLEXPRESS;Initial Catalog=GoToWorkDatabase;Integrated Security=True;MultipleActiveResultSets=True;");
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
             }
             base.OnConfiguring(optionsBuilder);
         }

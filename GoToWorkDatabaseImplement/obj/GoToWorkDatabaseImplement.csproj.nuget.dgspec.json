@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj",
         "packagesPath": "C:\\Users\\nnwrn\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\obj\\",
+=======
+    "D:\\dev\\visual studio\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj": {}
+  },
+  "projects": {
+    "D:\\dev\\visual studio\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev\\visual studio\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj",
+        "projectName": "GoToWorkBusinessLogic",
+        "projectPath": "D:\\dev\\visual studio\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\train\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\visual studio\\GoToWork\\GoToWorkBusinessLogic\\obj\\",
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\nnwrn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\train\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,6 +88,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
@@ -82,12 +101,30 @@
         "projectPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj",
         "packagesPath": "C:\\Users\\nnwrn\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkDatabaseImplement\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev\\visual studio\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev\\visual studio\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj",
+        "projectName": "GoToWorkDatabaseImplement",
+        "projectPath": "D:\\dev\\visual studio\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj",
+        "packagesPath": "C:\\Users\\train\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\visual studio\\GoToWork\\GoToWorkDatabaseImplement\\obj\\",
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\nnwrn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\train\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,8 +137,13 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj": {
                 "projectPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj"
+=======
+              "D:\\dev\\visual studio\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj": {
+                "projectPath": "D:\\dev\\visual studio\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj"
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
               }
             }
           }
@@ -146,7 +188,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
         }
       }
     }

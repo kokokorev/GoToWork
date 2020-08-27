@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+<<<<<<< HEAD
 using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Bibliography;
 using DocumentFormat.OpenXml.Packaging;
@@ -136,5 +137,12 @@ namespace GoToWorkBusinessLogic.BusinessLogics
 
             return table;
         }
+=======
+
+namespace GoToWorkBusinessLogic.BusinessLogics
+{
+    class SaveToWord
+    {
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
     }
 }

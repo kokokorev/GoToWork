@@ -4,7 +4,10 @@ using System.Linq;
 using System.Text;
 using GoToWorkBusinessLogic.BindingModels;
 using GoToWorkBusinessLogic.HelperModels;
+<<<<<<< HEAD
 using GoToWorkBusinessLogic.ViewModels;
+=======
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
 using MigraDoc.DocumentObjectModel;
 using MigraDoc.DocumentObjectModel.Tables;
 using MigraDoc.Rendering;
@@ -191,8 +194,11 @@ namespace GoToWorkBusinessLogic.BusinessLogics
                 }
             }
 
+<<<<<<< HEAD
             //--------------------------------------
 
+=======
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
             PdfDocumentRenderer renderer = new PdfDocumentRenderer(true, PdfSharp.Pdf.PdfFontEmbedding.Always) { Document = document };
             renderer.RenderDocument();
             renderer.PdfDocument.Save(model.FileName);

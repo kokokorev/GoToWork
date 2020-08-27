@@ -1,9 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+<<<<<<< HEAD
 using System.Text;
 using GoToWorkBusinessLogic.Enums;
 using System.Runtime.Serialization;
+=======
+using System.Runtime.Serialization;
+using System.Text;
+using GoToWorkBusinessLogic.Enums;
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
 
 namespace GoToWorkBusinessLogic.ViewModels
 {

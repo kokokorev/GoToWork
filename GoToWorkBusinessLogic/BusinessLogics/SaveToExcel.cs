@@ -18,12 +18,18 @@ namespace GoToWorkBusinessLogic.BusinessLogics
         {
             using (SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.Create(model.FileName, SpreadsheetDocumentType.Workbook))
             {
+<<<<<<< HEAD
                 // Создаем книгу (в ней хранятся листы)
+=======
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
                 WorkbookPart workbookpart = spreadsheetDocument.AddWorkbookPart();
                 workbookpart.Workbook = new Workbook();
                 CreateStyles(workbookpart);
 
+<<<<<<< HEAD
                 // Получаем/создаем хранилище текстов для книги
+=======
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
                 SharedStringTablePart shareStringPart =
                 spreadsheetDocument.WorkbookPart.GetPartsOfType<SharedStringTablePart>().Count() > 0
                 ?
@@ -31,17 +37,26 @@ namespace GoToWorkBusinessLogic.BusinessLogics
                 :
                 spreadsheetDocument.WorkbookPart.AddNewPart<SharedStringTablePart>();
 
+<<<<<<< HEAD
                 // Создаем SharedStringTable, если его нет
+=======
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
                 if (shareStringPart.SharedStringTable == null)
                 {
                     shareStringPart.SharedStringTable = new SharedStringTable();
                 }
 
+<<<<<<< HEAD
                 // Создаем лист в книгу
                 WorksheetPart worksheetPart = workbookpart.AddNewPart<WorksheetPart>();
                 worksheetPart.Worksheet = new Worksheet(new SheetData());
 
                 // Добавляем лист в книгу
+=======
+                WorksheetPart worksheetPart = workbookpart.AddNewPart<WorksheetPart>();
+                worksheetPart.Worksheet = new Worksheet(new SheetData());
+
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
                 Sheets sheets = spreadsheetDocument.WorkbookPart.Workbook.AppendChild<Sheets>(new Sheets());
                 Sheet sheet = new Sheet()
                 {
@@ -340,7 +355,10 @@ namespace GoToWorkBusinessLogic.BusinessLogics
         {
             SheetData sheetData = cellParameters.Worksheet.GetFirstChild<SheetData>();
 
+<<<<<<< HEAD
             // Ищем строку, либо добавляем ее
+=======
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
             Row row;
 
             if (sheetData.Elements<Row>().Where(r => r.RowIndex == cellParameters.RowIndex).Count() != 0)
@@ -353,7 +371,10 @@ namespace GoToWorkBusinessLogic.BusinessLogics
                 sheetData.Append(row);
             }
 
+<<<<<<< HEAD
             // Ищем нужную ячейку
+=======
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
             Cell cell;
 
             if (row.Elements<Cell>().Where(c => c.CellReference.Value == cellParameters.CellReference).Count() > 0)
@@ -361,9 +382,13 @@ namespace GoToWorkBusinessLogic.BusinessLogics
                 cell = row.Elements<Cell>().Where(c => c.CellReference.Value == cellParameters.CellReference).First();
             }
             else
+<<<<<<< HEAD
             {
                 // Все ячейки должны быть последовательно друг за другом расположены
                 // нужно определить, после какой вставлять
+=======
+            { 
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
                 Cell refCell = null;
 
                 foreach (Cell rowCell in row.Elements<Cell>())
@@ -380,7 +405,10 @@ namespace GoToWorkBusinessLogic.BusinessLogics
                 cell = newCell;
             }
 
+<<<<<<< HEAD
             // вставляем новый текст
+=======
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
             cellParameters.ShareStringPart.SharedStringTable.AppendChild(new SharedStringItem(new Text(cellParameters.Text)));
             cellParameters.ShareStringPart.SharedStringTable.Save();
             cell.CellValue = new CellValue((cellParameters.ShareStringPart.SharedStringTable.Elements<SharedStringItem>().Count() - 1).ToString());

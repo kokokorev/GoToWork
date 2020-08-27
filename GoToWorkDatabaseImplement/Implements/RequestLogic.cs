@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using GoToWorkBusinessLogic.BindingModels;
+<<<<<<< HEAD
 using GoToWorkBusinessLogic.Enums;
+=======
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
 using GoToWorkBusinessLogic.Interfaces;
 using GoToWorkBusinessLogic.ViewModels;
 using GoToWorkDatabaseImplement.Models;

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.Linq;
 using System.Text;
 using DocumentFormat.OpenXml.Office2010.ExcelAc;
@@ -7,6 +8,12 @@ using GoToWorkBusinessLogic.BindingModels;
 using GoToWorkBusinessLogic.HelperModels;
 using GoToWorkBusinessLogic.Interfaces;
 using GoToWorkBusinessLogic.ViewModels;
+=======
+using System.Text;
+using GoToWorkBusinessLogic.BindingModels;
+using GoToWorkBusinessLogic.HelperModels;
+using GoToWorkBusinessLogic.Interfaces;
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
 
 namespace GoToWorkBusinessLogic.BusinessLogics
 {
@@ -17,6 +24,7 @@ namespace GoToWorkBusinessLogic.BusinessLogics
         {
             this.partLogic = partLogic;
         }
+<<<<<<< HEAD
         public void SaveToWordFile(ReportBindingModel model)
         {
             SaveToWord.CreateDoc(model);
@@ -27,6 +35,9 @@ namespace GoToWorkBusinessLogic.BusinessLogics
                 FileName = model.FileName
             });
         }
+=======
+
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
         public void SaveToExcelFile(ReportBindingModel model)
         {
             SaveToExcel.CreateDoc(model);

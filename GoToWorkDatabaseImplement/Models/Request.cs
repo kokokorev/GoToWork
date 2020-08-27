@@ -1,8 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.Text;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+=======
+using System.ComponentModel.DataAnnotations;
+using System.Text;
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
 using GoToWorkBusinessLogic.Enums;
 
 namespace GoToWorkDatabaseImplement.Models
@@ -19,4 +24,8 @@ namespace GoToWorkDatabaseImplement.Models
         public DateTime? DateExecution { get; set; }
         public Provider Provider { get; set; }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152

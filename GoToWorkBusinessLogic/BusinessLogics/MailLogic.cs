@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Mail;
 using System.Text;
+<<<<<<< HEAD
 using System.Threading.Tasks;
 using GoToWorkBusinessLogic.HelperModels;
 using MailKit.Net.Pop3;
 using MailKit.Security;
+=======
+using GoToWorkBusinessLogic.HelperModels;
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
 
 namespace GoToWorkBusinessLogic.BusinessLogics
 {

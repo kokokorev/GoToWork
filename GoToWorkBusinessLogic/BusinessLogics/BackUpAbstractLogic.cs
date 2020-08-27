@@ -11,10 +11,16 @@ namespace GoToWorkBusinessLogic.BusinessLogics
 {
     public abstract class BackUpAbstractLogic
     {
+<<<<<<< HEAD
         public void CreateProviderArchive(BackupBindingModel model)
         {
             CreateArchive(model.SelectedPath, "ProviderSaveToFile");
 
+=======
+        public void CreateAdminArchive(string folderName)
+        {
+            CreateArchive(folderName, "AdminSaveToFile");
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
         }
 
         private void CreateArchive(string folderName, string methodName)
@@ -66,13 +72,21 @@ namespace GoToWorkBusinessLogic.BusinessLogics
             }
         }
 
+<<<<<<< HEAD
         private void ProviderSaveToFile<T>(string folderName) where T : class, new()
+=======
+        private void AdminSaveToFile<T>(string folderName) where T : class, new()
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
         {
             var records = GetList<T>();
 
             T obj = new T();
             var tmp = obj.GetType().Name;
+<<<<<<< HEAD
             if (!obj.GetType().Name.Equals("Toy") && !obj.GetType().Name.Equals("ToyParts"))
+=======
+            if (!obj.GetType().Name.Equals("Provider") && !obj.GetType().Name.Equals("Request"))
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
             {
                 DataContractJsonSerializer jsonFormatter = new DataContractJsonSerializer(typeof(List<T>));
                 using (FileStream fs = new FileStream(string.Format("{0}/{1}.json", folderName, obj.GetType().Name),

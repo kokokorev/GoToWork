@@ -1,6 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
+<<<<<<< HEAD
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoToWorkDatabaseImplement", "GoToWorkDatabaseImplement\GoToWorkDatabaseImplement.csproj", "{F379D5E0-64B2-4F2C-9AD1-516332C08991}"
@@ -10,6 +11,15 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoToWorkRestApi", "GoToWorkRestApi\GoToWorkRestApi.csproj", "{D3F07E76-9CAF-40C1-A114-455243CBBFD0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoToWorkProviderView", "GoToWorkProviderView\GoToWorkProviderView.csproj", "{6A13DE83-12A5-471E-98AC-77B1A7B3DB73}"
+=======
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoToWorkAdminView", "GoToWorkAdminView\GoToWorkAdminView.csproj", "{4DCB2080-8410-44FD-A5AA-AB27FBEB3A66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoToWorkDatabaseImplement", "GoToWorkDatabaseImplement\GoToWorkDatabaseImplement.csproj", "{BED61E1F-7E51-4CD5-B665-4242ACE2EA03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoToWorkBusinessLogic", "GoToWorkBusinessLogic\GoToWorkBusinessLogic.csproj", "{B87C0B01-B9D8-425F-95D4-92B554F909F3}"
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +27,7 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{F379D5E0-64B2-4F2C-9AD1-516332C08991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F379D5E0-64B2-4F2C-9AD1-516332C08991}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F379D5E0-64B2-4F2C-9AD1-516332C08991}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,11 +44,29 @@ Global
 		{6A13DE83-12A5-471E-98AC-77B1A7B3DB73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A13DE83-12A5-471E-98AC-77B1A7B3DB73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A13DE83-12A5-471E-98AC-77B1A7B3DB73}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{4DCB2080-8410-44FD-A5AA-AB27FBEB3A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCB2080-8410-44FD-A5AA-AB27FBEB3A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCB2080-8410-44FD-A5AA-AB27FBEB3A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCB2080-8410-44FD-A5AA-AB27FBEB3A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED61E1F-7E51-4CD5-B665-4242ACE2EA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED61E1F-7E51-4CD5-B665-4242ACE2EA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED61E1F-7E51-4CD5-B665-4242ACE2EA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED61E1F-7E51-4CD5-B665-4242ACE2EA03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87C0B01-B9D8-425F-95D4-92B554F909F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87C0B01-B9D8-425F-95D4-92B554F909F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87C0B01-B9D8-425F-95D4-92B554F909F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87C0B01-B9D8-425F-95D4-92B554F909F3}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
 		SolutionGuid = {DF383B77-7EC9-4D7A-823D-CB9ABCEE82D2}
+=======
+		SolutionGuid = {43A4756E-8EFA-4CC9-BD46-679C19457CD2}
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
 	EndGlobalSection
 EndGlobal

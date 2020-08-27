@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\nnwrn\Desktop\GoToWork\GoToWorkDatabaseImplement\bin\Debug\netstandard2.0\GoToWorkDatabaseImplement.deps.json
 C:\Users\nnwrn\Desktop\GoToWork\GoToWorkDatabaseImplement\bin\Debug\netstandard2.0\GoToWorkDatabaseImplement.dll
 C:\Users\nnwrn\Desktop\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.csprojAssemblyReference.cache
@@ -9,3 +10,16 @@ C:\Users\nnwrn\Desktop\GoToWork\GoToWorkDatabaseImplement\bin\Debug\netstandard2
 C:\Users\nnwrn\Desktop\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.csproj.CopyComplete
 C:\Users\nnwrn\Desktop\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.dll
 C:\Users\nnwrn\Desktop\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.pdb
+=======
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\bin\Debug\netstandard2.0\GoToWorkDatabaseImplement.deps.json
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\bin\Debug\netstandard2.0\GoToWorkDatabaseImplement.dll
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.csprojAssemblyReference.cache
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.AssemblyInfoInputs.cache
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.AssemblyInfo.cs
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\bin\Debug\netstandard2.0\GoToWorkDatabaseImplement.pdb
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\bin\Debug\netstandard2.0\GoToWorkBusinessLogic.dll
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\bin\Debug\netstandard2.0\GoToWorkBusinessLogic.pdb
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.csproj.CopyComplete
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.dll
+D:\dev\visual studio\GoToWork\GoToWorkDatabaseImplement\obj\Debug\netstandard2.0\GoToWorkDatabaseImplement.pdb
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152

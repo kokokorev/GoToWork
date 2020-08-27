@@ -2554,6 +2554,10 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< HEAD
+=======
+        ".signature.p7s",
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -2906,6 +2910,10 @@
       "path": "runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< HEAD
+=======
+        ".signature.p7s",
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -3002,6 +3010,10 @@
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< HEAD
+=======
+        ".signature.p7s",
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
@@ -4825,6 +4837,10 @@
       "path": "system.reflection.emit/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< HEAD
+=======
+        ".signature.p7s",
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4860,6 +4876,10 @@
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< HEAD
+=======
+        ".signature.p7s",
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5846,6 +5866,10 @@
       "path": "system.security.cryptography.cng/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< HEAD
+=======
+        ".signature.p7s",
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net46/System.Security.Cryptography.Cng.dll",
@@ -6982,23 +7006,39 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\nnwrn\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\train\\.nuget\\packages\\": {},
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj",
       "projectName": "GoToWorkDatabaseImplement",
       "projectPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj",
       "packagesPath": "C:\\Users\\nnwrn\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkDatabaseImplement\\obj\\",
+=======
+      "projectUniqueName": "D:\\dev\\visual studio\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj",
+      "projectName": "GoToWorkDatabaseImplement",
+      "projectPath": "D:\\dev\\visual studio\\GoToWork\\GoToWorkDatabaseImplement\\GoToWorkDatabaseImplement.csproj",
+      "packagesPath": "C:\\Users\\train\\.nuget\\packages\\",
+      "outputPath": "D:\\dev\\visual studio\\GoToWork\\GoToWorkDatabaseImplement\\obj\\",
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\nnwrn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\train\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7011,8 +7051,13 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj": {
               "projectPath": "C:\\Users\\nnwrn\\Desktop\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj"
+=======
+            "D:\\dev\\visual studio\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj": {
+              "projectPath": "D:\\dev\\visual studio\\GoToWork\\GoToWorkBusinessLogic\\GoToWorkBusinessLogic.csproj"
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
             }
           }
         }
@@ -7057,7 +7102,11 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
       }
     }
   },
@@ -7066,7 +7115,11 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "Пакет \"PDFsharp-MigraDoc 1.50.5147\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETStandard,Version=v2.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+=======
+      "message": "Package 'PDFsharp-MigraDoc 1.50.5147' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+>>>>>>> c5de45aa0e96dc1a2a07dfc76df7593ac57c8152
       "libraryId": "PDFsharp-MigraDoc",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
